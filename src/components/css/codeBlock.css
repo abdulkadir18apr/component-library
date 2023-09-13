@@ -1,0 +1,25 @@
+.code-container {
+    position: relative;
+  }
+  
+  .copy-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    top:-11rem;
+    left: 17.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .copy-button svg {
+    margin-right: 4px;
+  }
+  .code-container{
+    border:2px solid green;
+    width: fit-content
+  }

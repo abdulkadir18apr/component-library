@@ -1,0 +1,33 @@
+/* ComponentsCard.css (or add this directly to your App.css) */
+
+.components-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  
+  .components-card:hover{
+    transform: scale(1.10);
+  }
+  .components-card img {
+    /* width: 250px; */
+    height:12rem;
+    max-width: 100%;
+
+  }
+  
+  .component-name {
+    font-weight: 500;
+    border-top:2px solid gray;  
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
