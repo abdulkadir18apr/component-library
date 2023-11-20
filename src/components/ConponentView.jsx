@@ -4,6 +4,23 @@ import { CodeBlock } from "./CodeBlock";
 
 export const ComponentView = ({ heading, code, Component }) => {
     const [view, setView] = useState("component")
+    const [copy, setCopy] = useState(false)
+
+    const handleCopyCode=()=>{
+         copyContent(code)
+    }
+    
+
+    async function copyContent() {
+        try {
+          await navigator.clipboard.writeText(code);
+          setCopy(true)
+
+        } catch (err) {
+          console.error('Failed to copy: ', err);
+        }
+      }
+
     return (
         <div className="componentView-container">
             <div className="controllers">
@@ -13,7 +30,7 @@ export const ComponentView = ({ heading, code, Component }) => {
                         <button onClick={()=>setView('component')} className={view==='component'?"active":""}>Preview</button>
                         <button onClick={()=>setView('code')} className={view==='code'?"active":""}>Code</button>
                     </div>
-                    <button className="primaryBtn">copy</button>
+                    <button className="primaryBtn" onClick={handleCopyCode}>{!copy?"Copy":"Copied"}</button>
                 </div>
             </div>
             <div className="componetBox">

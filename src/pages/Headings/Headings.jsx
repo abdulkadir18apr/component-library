@@ -22,8 +22,9 @@ const HeadingView=()=>{
     return (
         <div>
           <Heading text={"small Heading"} size={"sm"} color={"red"}/>
-          <Heading text={"large Heading"} size={"lg"} color={"green"}/>
-          <Heading text={"large Heading"} size={"xl"} color={"yellow"}/>
+          <Heading text={"large Heading"} size={"md"} color={"green"}/>
+          <Heading text={"large Heading"} size={"lg"} color={"gray"}/>
+          <Heading text={"large Heading"} size={"xl"} color={"black"}/>
         </div>
       );
     
