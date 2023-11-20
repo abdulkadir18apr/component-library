@@ -5,7 +5,7 @@ import "./Home.css"
 import { Link } from 'react-router-dom'
 import Sidebar from '../../components/Sidebar'
 
-export default function Home() {
+export  function Home() {
   return (
     <div className='home'>
         <div className="header">

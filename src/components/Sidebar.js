@@ -21,10 +21,10 @@ function Sidebar() {
           <Link to="/components/headings">Headings</Link>
         </li>
         <li className="py-2 px-4 hover:bg-gray-800 hover:text-white cursor-pointer transition duration-300 ease-in-out">
-          <a href="#texts">Texts</a>
+          <Link to="/components/texts">Texts</Link>
         </li>
         <li className="py-2 px-4 hover:bg-gray-800 hover:text-white cursor-pointer transition duration-300 ease-in-out">
-          <a href="#images">Images</a>
+          <Link to="/components/images">Images</Link>
         </li>
       </ul>
     </div>
