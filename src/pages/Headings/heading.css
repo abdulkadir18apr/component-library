@@ -1,11 +1,15 @@
-.avatar{
+.card{
     /* border:2px solid green; */
     display: grid;
     grid-template-columns: 16rem auto;
 }
-.avatars{
+.cards{
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
     gap:2rem;
+}
+.view{
+    display: flex;
+    gap:10px;
 }

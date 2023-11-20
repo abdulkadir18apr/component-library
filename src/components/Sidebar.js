@@ -1,6 +1,7 @@
 // Sidebar.js
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Sidebar() {
   return (
@@ -8,16 +9,16 @@ function Sidebar() {
 
       <ul className="mt-4">
         <li className="py-2 px-4 hover:bg-gray-800 hover:text-white cursor-pointer transition duration-300 ease-in-out">
-          <a href="#avatars">Avatars</a>
+          <Link to="/components/avatar">Avatars</Link>
         </li>
         <li className="py-2 px-4 hover:bg-gray-800  hover:text-white cursor-pointer transition duration-300 ease-in-out">
-          <a href="#buttons">Buttons</a>
+          <Link to="/components/button">Buttons</Link>
         </li>
         <li className="py-2 px-4 hover:bg-gray-800 hover:text-white cursor-pointer transition duration-300 ease-in-out">
-          <a href="#cards">Cards</a>
+          <Link to='/components/cards'>Cards</Link>
         </li>
         <li className="py-2 px-4 hover:bg-gray-800 hover:text-white cursor-pointer transition duration-300 ease-in-out">
-          <a href="#headings">Headings</a>
+          <Link to="/components/headings">Headings</Link>
         </li>
         <li className="py-2 px-4 hover:bg-gray-800 hover:text-white cursor-pointer transition duration-300 ease-in-out">
           <a href="#texts">Texts</a>

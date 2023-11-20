@@ -1,0 +1,257 @@
+.circular-avatar{
+    width:100px;
+    height:100px;
+}
+.circular-avatar img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.textAvatar{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.textAvatar img{
+    width:5%;
+    height: 5%;
+    border-radius: 50%;
+}
+.textAvatar .texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texts :first-child{
+    font-weight: 800;
+}
+.texts  :last-child{
+    color: gray;
+}
+/* CardWithBadges.css */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .badges {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .badge {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  /* CardWithDismiss.css */
+.dismissible-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .badges {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .badge {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .dismiss-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dismiss-button:hover {
+    background-color: #c82333;
+  }
+
+  /* CardWithDismissNoBadges.css */
+.dismissible-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .dismiss-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .dismiss-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* CardWithDismiss.css */
+.dismissible-card {
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Added positioning for child elements */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .dismiss-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 2px 2x;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .dismiss-button:hover {
+    background-color: #c82333;
+  }
+  
+  .cardContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .cardImg{
+    /* width:30%; */
+    padding:8px
+  }
+  .cardImg img{
+    width:270px;
+
+  }
+  /* CardWithTextOverlay.css */
+.dismissible-card {
+    width: 300px; /* Adjust the card width as needed */
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Adjust the overlay color and opacity */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff; /* Text color on overlay */
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: black;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .dismiss-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .dismiss-button:hover {
+    background-color: #c82333;
+  }
+  
