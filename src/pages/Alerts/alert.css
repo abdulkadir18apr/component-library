@@ -1,0 +1,12 @@
+.alert {
+  /* border: 2px solid green; */
+  display: grid;
+  grid-template-columns: 16rem auto;
+ 
+}
+.alerts {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

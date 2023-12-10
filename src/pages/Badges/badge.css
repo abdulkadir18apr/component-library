@@ -1,0 +1,13 @@
+.badge {
+  /* border: 2px solid green; */
+  display: grid;
+  grid-template-columns: 16rem auto;
+  background-color: white;
+}
+.badges {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: black;
+}
